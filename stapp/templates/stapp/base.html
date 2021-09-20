@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - App</title>
+    <link rel="stylesheet" href="{% static 'stapp/css/bootstrap.css' %}">
+</head>
+<body>
+    <div class="container mt-4"></div>
+        <h2 class="text-center alert alert-danger">Function Based View - Model Form CRUD App</h2>
+        {% block content %}
+        
+
+        {% endblock content %}
+<script src="{% static 'stapp/js/jquery.js' %}"></script>
+<script src="{% static 'stapp/js/popper.js' %}"></script>
+<script src="{% static 'stapp/js/bootstrap.js' %}"></script>
+
+</body>
+</html>
